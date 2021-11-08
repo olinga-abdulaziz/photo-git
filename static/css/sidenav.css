@@ -1,0 +1,12 @@
+.sidenav{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.user{
+    margin-left: 10px;
+}

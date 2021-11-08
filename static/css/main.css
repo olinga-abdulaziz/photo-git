@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.cup {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.hideside {
+  width: 40vh;
+  height: 100%;
+  display: none;
+  background-color: cornflowerblue;
+}
+.showside {
+    width: 40vh;
+    height: 100%;
+    display: block;
+    background-color: cornflowerblue;
+  }
+.mainContainer {
+  width: 100%;
+}
+.smallContainer {
+  display: flex;
+  display: none;
+}
+.bigContainer {
+  height: auto;
+  margin: 0;
+  background-color: white;
+  width: 100%;
+}
+.brand {
+  color: cornflowerblue;
+}
+.brandsmall {
+  color: cornflowerblue;
+  font-size: 20px;
+}
+#menuToggler {
+  margin: 10px;
+  cursor: pointer;
+}
+.smnav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.lgnav {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 10px;
+  background-color: aliceblue;
+  align-items: center;
+}
+.con {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.lgnav ul li {
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+}
+.lgnav ul li a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+@media screen and (max-width: 650px) {
+  .smallContainer {
+    display: block;
+    background-color: aliceblue;
+    height: 8vh;
+    width: 100%;
+  }
+  .bigContainer {
+    display: none;
+  }
+}
